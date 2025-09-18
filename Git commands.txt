@@ -1,0 +1,25 @@
+Go the path where you need to push the code to GitHub
+
+Step1:
+
+git init
+
+Step2:
+
+git add .
+
+Step3:
+git commit -m "Initial commit of DBA Maintenance task"
+
+Step4:
+git remote add origin https://github.com/Suryakrishnan95/DBA-Automation-Framework.git
+
+Step5:
+git branch -M main
+
+Step6:
+git push -u origin main
+
+Step7:
+
+git pull origin main --rebase
